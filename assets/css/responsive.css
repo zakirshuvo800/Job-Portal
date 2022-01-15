@@ -1,0 +1,324 @@
+@media (max-width: 1199px) {
+
+	/*=====================*/
+	/* SERVICE SECTION */
+	/*=====================*/
+	.service__item {
+		padding: 2rem;
+	}
+
+	/*=====================*/
+	/* STORY SECTION */
+	/*=====================*/
+	.story__section {
+		padding: 25rem 0;
+	}
+
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.skill__section {
+		padding-bottom: 17rem !important;
+	}
+
+	svg.radial-progress {
+		max-width: 150px;
+	}
+
+	svg.radial-progress text {
+		font-size: 18px;
+	}
+
+	.progress__item {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	/*======================*/
+	/* POSTFOLIO SECTION */
+	/*======================*/
+	.portfolio__section {
+		padding-bottom: 22rem !important;
+	}
+
+	/*======================*/
+	/* CLIENT SECTION */
+	/*======================*/
+	.client__slider {
+		min-height: 30rem;
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.f-c-1 {
+		padding-right: 4rem;
+	}
+
+	.social li:not(:last-child) {
+		margin-right: 1rem;
+	}
+}
+
+@media (max-width: 991px) {
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		position: relative;
+		position: fixed;
+		right: -100%;
+		top: 0;
+		height: 100vh;
+		background: var(--c-4a);
+		max-width: 50%;
+		width: 50%;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+		z-index: 999999;
+	}
+
+	/*- SHOW & HIDE MENU -*/
+	.main__menu-show {
+		right: 0;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+	}
+
+	.main__menu ul {
+		width: 100%;
+	}
+
+	.main__menu li:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 1.3rem;
+	}
+
+	.header__btn li:last-child {
+		margin-left: 2rem;
+	}
+
+	/* MENU SHOW & HIDE ICON */
+	.menu__show__icon {
+		display: block;
+	}
+
+	/*------------ 
+	Sticky Menu 
+	------------*/
+	.sticky__menu .main__menu li a {
+		color: var(--c-ff);
+	}
+
+	/*=====================*/
+	/* SERVICE HERO SECTION */
+	/*=====================*/
+	.hero__section {
+		padding: 20rem 0 25rem;
+	}
+
+	/*=====================*/
+	/* SERVICE SECTION */
+	/*=====================*/
+	.service__title {
+		margin-bottom: 5rem;
+	}
+
+	.service__item {
+		padding: 3rem;
+	}
+
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.skill__section {
+		padding-bottom: 15rem !important;
+	}
+
+	svg.radial-progress {
+		max-width: 115px;
+	}
+
+	svg.radial-progress text {
+		font-size: 17px;
+	}
+
+	.progress__item {
+		margin-left: .8rem;
+		margin-right: .8rem;
+	}
+
+	.progress__item p {
+		font-size: var(--fs-14);
+	}
+
+	/*======================*/
+	/* CLIENT SECTION */
+	/*======================*/
+	.client__slider {
+		min-height: auto !important;
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+
+	.social li:not(:last-child) {
+		margin-right: 1.8rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		max-width: 60%;
+		width: 60%;
+	}
+
+	/*=====================*/
+	/* SERVICE HERO SECTION */
+	/*=====================*/
+	.hero__section {
+		padding: 20rem 0 20rem !important;
+	}
+
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.skill__section {
+		padding-bottom: 10rem !important;
+	}
+
+	svg.radial-progress {
+		max-width: 130px;
+	}
+	
+	.progress__item p {
+		font-size: var(--fs-16);
+	}
+
+
+	/*=====================*/
+	/* STORY SECTION */
+	/*=====================*/
+	.story__section {
+		padding: 20rem 0;
+	}
+
+	.story__content .play__btn a {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	/*======================*/
+	/* POSTFOLIO SECTION */
+	/*======================*/
+	.portfolio__section {
+		padding-bottom: 15rem !important;
+	}
+
+	/*=====================*/
+	/* HIRE SECTION */
+	/*=====================*/
+	.hire__title {
+		margin-bottom: 4rem;
+	}
+}
+
+@media (max-width: 575px) {
+
+	.btn {
+		min-width: 14rem;
+	}
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		max-width: 85%;
+		width: 85%;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__text h1 {
+		--fs-60: 5rem;
+	}
+
+	.hero__section {
+		padding: 20rem 0 !important;
+	}
+
+	/*=====================*/
+	/* SERVICE SECTION */
+	/*=====================*/
+	.service__title {
+		padding-right: 0rem;
+	}
+
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.skill__section {
+		padding-bottom: 9rem !important;
+	}
+
+	svg.radial-progress {
+		max-width: 130px;
+	}
+	
+	.progress__item p {
+		font-size: var(--fs-14);
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.f-c-1 {
+		padding-right: 0rem;
+	}
+
+}
+
+@media (max-width: 373px) {
+
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.skill__section {
+		padding-bottom: 10rem !important;
+	}
+
+	svg.radial-progress {
+		max-width: 100px;
+	}
+}
+
+@media (max-width: 373px) {
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__text h1 {
+		--fs-60: 4.2rem;
+	}
+}
+
+@media (max-width: 350px) {
+
+	/*=====================*/
+	/* SERVICE SECTION */
+	/*=====================*/
+	.service__item {
+		padding: 2rem;
+	}
+
+}

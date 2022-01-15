@@ -1,0 +1,280 @@
+body {
+    margin: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* ===== Header design ===== */
+.header {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ===== Menu design ===== */
+.menu {
+    color: white;
+    width: 95px;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4e2525;
+}
+
+.menu_seeker {
+    color: white;
+    width: 330px;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4e2525;
+}
+
+.menu_srcjob {
+    color: white;
+    width: 330px;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4e2525;
+}
+
+.menu_application {
+    color: white;
+    width: 490px;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4e2525;
+}
+
+.menu_emp {
+
+    width: 550px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 330px;
+    padding: 10px;
+    background-color: #4e2525;
+    border-radius: 10px;
+}
+
+
+.menu_posted {
+
+    color: white;
+    width: 550px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: #4e2525;
+}
+
+.new{
+    color: white;
+    width: 370px;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4e2525;
+    
+    
+    
+}
+
+.back {
+    color: white;
+    width: 60px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #4e2525;
+    border-radius: 5px;
+}
+
+/* ===== texts design ===== */
+.texts {
+    font-size: 25px;
+    color: #2b5ff3;
+}
+
+/* ===== this is a standard table design ===== */
+.edit a {
+    color: darkred;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.delete a {
+    color: darkred;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.tbl-std {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+
+}
+
+.tbl-std td,
+.tbl-std th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tbl-std tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tbl-std tr:hover {
+    background-color: #ddd;
+}
+
+.tbl-std th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #af4c4c;
+    color: white;
+}
+
+hr {
+    width: 255px;
+    margin-left: 0px;
+}
+
+.seeker {
+    width: 255px;
+    margin-right: 0px;
+}
+
+.s_left {
+    font-size: 40px;
+    text-align: left;
+}
+
+.s_left p {
+    margin: 0;
+}
+
+/* ===== From style===== */
+input[type=text],
+select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=password],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* ===== Delete button design ===== */
+.btn-delete {
+    padding: 5px;
+    font-weight: 500;
+    background-color: #00ff0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ===== Submit button design ===== */
+.btn-submit {
+    padding: 10px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn-submit:hover {
+    background-color: brown;
+
+}
+
+.btn-submit a:hover {
+    color: #fff;
+
+}
+.margin{
+    margin-left: 585px;
+}
+
+.color{
+    background-color: aqua;
+    color: white;
+    width: 120px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+     margin-left: 555px;
+}
+/* ===== Field design ===== */
+.field {
+    background-color: white;
+}

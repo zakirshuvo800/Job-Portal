@@ -1,0 +1,231 @@
+
+/*==============*/
+/*-- BASIC --*/
+/*==============*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: #212529;
+	color: #00AA55;
+}
+
+::selection {
+	background: #212529;
+	color: #00AA55;
+}
+
+::-webkit-scrollbar {
+	width: .9rem;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--c-4a);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--c-a0);
+	height: 6rem;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+}
+
+/*=======================*/
+/*-- RESPONSIVE IMG --*/
+/*=======================*/
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+/*================*/
+/*-- WIDTH --*/
+/*================*/
+.w-100 {
+	width: 100%;
+}
+
+/*=====================*/
+/*-- TYPOGRAPHY --*/
+/*=====================*/
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+/*=======================*/
+/*-- TEXT ALIGNMENT --*/
+/*=======================*/
+
+.text-start {
+	text-align: left;
+}
+
+.text-end {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+@media (min-width: 576px) {
+	.text-sm-start {
+		text-align: left;
+	}
+
+	.text-sm-end {
+		text-align: right;
+	}
+
+	.text-sm-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.text-md-start {
+		text-align: left;
+	}
+
+	.text-md-end {
+		text-align: right;
+	}
+
+	.text-md-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) {
+	.text-lg-start {
+		text-align: left;
+	}
+
+	.text-lg-end {
+		text-align: right;
+	}
+
+	.text-lg-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	.text-xl-start {
+		text-align: left;
+	}
+
+	.text-xl-end {
+		text-align: right;
+	}
+
+	.text-xl-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1400px) {
+	.text-xxl-start {
+		text-align: left;
+	}
+
+	.text-xxl-end {
+		text-align: right;
+	}
+
+	.text-xxl-center {
+		text-align: center;
+	}
+}
+
+/*=======================*/
+/*-- BORDER RADIUS --*/
+/*=======================*/
+.circle {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.rounded {
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+	-moz-border-radius: .5rem;
+	-ms-border-radius: .5rem;
+	-o-border-radius: .5rem;
+}
+
+/*=================*/
+/*-- SHADOW --*/
+/*=================*/
+.shadow-sm {
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+/*=============================*/
+/*-- POSITION & TRANSFORM --*/
+/*=============================*/
+.position-relative {
+	position: relative;
+}
+
+/*====================*/
+/*-- TRANSITION --*/
+/*====================*/
+.transition-1 {
+	-webkit-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.transition-2 {
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.transition-3 {
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}

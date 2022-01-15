@@ -1,0 +1,449 @@
+/*======================================================*/
+/*--------------------------------------------------------
+
+Usually, the font size in HTML is 16px or 1rem by default ( 16px = 1rem ).  
+Here in HTML, I have given Font Size 10px by default and here I have used REM as a Unit.  
+10px = 1rem.  
+
+I will give some more examples of px and rem, for example:-------
+1px   	=   .1rem
+2px		=	.2rem
+3px		=	.3rem
+4px		=	.4rem
+5px		=	.5rem
+6px 	= 	.6rem
+7px 	= 	.7rem
+8px 	= 	.8rem
+9px   	=   .9rem 
+10px  	=   1rem 
+15px 	=  	1.5rem 
+18px 	=  	1.8rem 
+20px 	= 	2rem
+27px 	= 	2.7rem;
+30px 	=  	3rem 
+35px 	=  	3.5rem
+
+----------------------------------------------------------*/
+/*=========================================================*/
+
+/*===================*/
+/*-- VARIABLES --*/
+/*===================*/
+:root {
+	--fs-60: 6rem;
+	--fs-30: 3rem;
+	--fs-16: 1.6rem;
+	--fs-14: 1.4rem;
+	--fs-16: 1.6rem;
+	--c-4a: #4A4A4A;
+	--c-6e: #6E6E6E;
+	--c-ff: #FFFFFF;
+	--c-a0: #A0D334;
+	--c-5d: #5D5D5D;
+	--c-fa: #FAFAFF;
+	--c-70: #703EE7;
+}
+
+/*===================*/
+/*-- VARIABLES --*/
+/*===================*/
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+/*==============================*/
+/*-- REUSEBLE COMPONENTS --*/
+/*==============================*/
+header,
+mian,
+section {
+	overflow-x: hidden;
+}
+
+section {
+	padding: 3.5rem 0;
+}
+
+.bg__color {
+	background: var(--c-fa);
+}
+
+.heading {
+	font-family: 'Roboto-700';
+	font-size: var(--fs-30);
+	color: var(--c-4a);
+}
+
+.sub__heading {
+	font-family: 'Roboto-500';
+	font-size: var(--fs-16);
+	color: var(--c-4a);
+}
+
+.title__p {
+	max-width: 53.1rem;
+	margin: 2rem auto 7rem;
+}
+.main__menu ul li a:hover{
+    color: var(--c-a0);
+    transition: 0.3s;
+}
+
+.title__p,
+.p__text {
+	font-family: 'Roboto-400';
+	font-size: var(--fs-16);
+	color: var(--c-6e);
+	line-height: 1.8;
+}
+.p__text2 {
+	font-family: 'Roboto-400';
+	font-size: var(--fs-16);
+    font-weight: 600;
+	color: var(--c-6e);
+	line-height: 1.8;
+}
+.p__text1{
+    font-family: 'Roboto-400';
+	font-size: var(--fs-16);
+    line-height: 1.8;
+}
+.new_mar{
+    margin-left: 1rem;
+}
+
+.btn {
+	display: inline-block;
+	min-width: 10rem;
+	height: 3.5rem;
+	line-height: 3.7rem;
+	text-align: center;
+	
+	background: var(--c-a0);
+	color: var(--c-ff);
+	font-size: var(--fs-16);
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.btn:hover,
+.story__content .play__btn a:hover {
+	-webkit-transform: translateY(-.6rem);
+	-ms-transform: translateY(-.6rem);
+	transform: translateY(-.6rem);
+}
+
+/*==============================*/
+/*-- REUSEBLE COMPONENTS --*/
+/*==============================*/
+
+
+/*==============================*/
+/*-- START HEADER SECTION --*/
+/*==============================*/
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999999;
+	padding: 2.5rem 0;
+}
+
+.logo .logo__text {
+	font-size: 2.8rem;
+	color: var(--c-a0);
+    font-weight: 700;
+}
+
+.main__menu {
+	max-width: 60%;
+	width: 60%;
+}
+
+.main__menu li a {
+	color: var(--c-ff);
+}
+
+.main__menu li:not(:last-child) {
+	margin-right: 4rem;
+}
+
+.header__btn a {
+	line-height: 3.4rem;
+	background-color: transparent;
+	border: .2rem solid var(--c-ff);
+}
+
+.header__btn a:hover {
+	background: var(--c-a0);
+	border: .2rem solid transparent;
+}
+
+/*------------ 
+Sticky Menu 
+------------*/
+.sticky__menu {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: var(--c-ff);
+	z-index: 99999999999;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	-webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.sticky__menu .main__menu li a {
+	color: var(--c-4a);
+}
+
+.sticky__menu .header__btn a {
+	border: .2rem solid var(--c-a0);
+	color: var(--c-4a);
+}
+
+.sticky__menu .header__btn a:hover {
+	color: var(--c-ff);
+}
+
+/*-----------------
+Hamburger Menu Btn
+-----------------*/
+.menu__show__icon {
+	display: none;
+	cursor: pointer;
+	position: relative;
+	z-index: 9999999;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 3.5rem;
+	height: .5rem;
+	background: var(--c-a0);
+	margin: .6rem 0;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	-ms-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-10px, -7px);
+	-ms-transform: rotate(45deg) translate(-10px, -7px);
+	transform: rotate(45deg) translate(-10px, -7px);
+}
+
+/*==============================*/
+/*-- END HEADER SECTION --*/
+/*==============================*/
+
+
+/*==============================*/
+/*-- START HERO SECTION --*/
+/*==============================*/
+.hero__section {
+	background: -o-linear-gradient(left, rgba(255, 135, 88, 0.6), rgba(255, 217, 66, 0.6)), url(../images/hero.png);
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 135, 88, 0.6)), to(rgba(255, 217, 66, 0.6))), url(../images/hero.png);
+	background: linear-gradient(to right, rgba(28 ,18, 111, 0.7), rgba(160, 124, 41, 0.6)), url(../images/hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 25rem 0 30rem;
+}
+/*rgb(28 18 111 / 70%), rgb(160 124 41 / 60%)*/
+
+.hero__text {
+	max-width: 50rem;
+	margin-left: auto;
+}
+
+.hero__text p,
+.hero__text h1 {
+	color: var(--c-ff) !important;
+}
+
+.hero__text h1 {
+	font-family: 'Montserrat';
+	font-size: var(--fs-60);
+}
+
+.hero__btn {
+	margin-top: 3rem;
+}
+.hero__btn a:hover{
+    background-color: white;
+    color: #444444;
+}
+
+/*==============================*/
+/*-- END HERO SECTION --*/
+/*==============================*/
+
+
+/*==============================*/
+/*-- START SERVICE SECTION --*/
+/*==============================*/
+.service__section {}
+
+.service__title {
+	padding-right: 8rem;
+}
+
+.service__title p {
+	margin: 1.8rem 0 5.2rem;
+}
+
+.service__item {
+	padding: 3rem;
+}
+
+.service__item__img {
+	margin-right: 2.2rem;
+}
+
+.service__item__desc h3 {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.service__btn a:hover{
+    background-color: #4cedc8;
+    color: #444444;
+}
+
+/*==============================*/
+/*-- END SERVICE SECTION --*/
+/*==============================*/
+
+
+
+/*==============================*/
+/*-- START HIRE SECTION --*/
+/*==============================*/
+.hire__section {
+	padding: 9rem 0 !important;
+}
+
+/*==============================*/
+/*-- END HIRE SECTION --*/
+/*==============================*/
+
+
+/*==============================*/
+/*-- START FOOTER SECTION --*/
+/*==============================*/
+footer {
+	background:#948f68;
+	padding: 4rem 0 5rem;
+}
+
+.f-c {
+	margin-bottom: 3rem;
+}
+
+.c-ff {
+	color: var(--c-ff);
+}
+
+.f-c-1 {
+	padding-right: 8rem;
+}
+
+.f__content ul li:not(:last-child) {
+	margin-bottom: 1.2rem;
+}
+
+.f__content ul li a,
+.social li a {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.f__content ul li a:hover {
+	margin-left: .4rem;
+}
+
+.social li:not(:last-child) {
+	margin-right: 1.7rem;
+}
+
+.social li a {
+	font-size: 1.8rem;
+}
+
+.social li a:hover {
+	color: var(--c-a0);
+}
+
+.hr {
+	margin: 5rem 0;
+}
+
+.hr hr {
+	border: 0;
+	border-bottom: .1rem solid var(--c-ff);
+}
+
+.f-bottom-c ul li img {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.f-bottom-c ul li .text {
+	margin-left: 1.4rem;
+}
+.text_ita{
+    font-style: italic;
+}
+
+/*==============================*/
+/*-- END FOOTER SECTION --*/
+/*==============================*/
+
+
+/*====================*/
+/*-- Back to top --*/
+/*====================*/
+#up__btn {
+	opacity: 0;
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	z-index: 99999999999;
+	font-size: 1.8rem;
+	background: var(--c-a0);
+	color: #FFFFFF;
+	cursor: pointer;
+	width: 3.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+}
+
+#up__btn:hover {
+	-webkit-transform: translateY(-.7rem);
+	-ms-transform: translateY(-.7rem);
+	transform: translateY(-.7rem);
+}
